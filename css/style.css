@@ -18,10 +18,10 @@ body {
   min-width: 320px;
   min-height: 100vh;
   background-color: #0f0f0f;
-  font-family: 'Myriad Pro', sans-serif;
+  font-family: 'SFCompactDisplay', sans-serif;
   color: #9f9f9f;
   font-size: 25px;
-  font-weight: 400;
+  font-weight: 500;
   line-height: 1.2;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
@@ -58,6 +58,7 @@ a {
   border: none;
   background-color: #070707;
   font-size: 2.16em;
+  font-weight: 300;
   color: #847b7b;
 }
 
@@ -75,6 +76,7 @@ a {
 }
 
 .logo {
+  font-family: 'Maleah', sans-serif;
   font-size: 1.48em;
   color: #fefefe;
 }
@@ -90,6 +92,7 @@ a {
   background-color: transparent;
   text-align: center;
   font-size: 1.48em;
+  font-weight: 300;
   color: #fefefe;
 }
 
@@ -169,11 +172,13 @@ a {
 .nav__title {
   margin-bottom: 32px;
   font-size: 1.16em;
+  font-weight: 100;
   text-transform: uppercase;
 }
 
 .nav__el {
   font-size: 1.16em;
+  font-weight: 100;
 }
 
 .nav__list--child {
@@ -184,6 +189,7 @@ a {
 
 .nav__el--child {
   font-size: 0.86206897em;
+  font-weight: 100;
 }
 
 .nav__el--child:not(:last-of-type) {
@@ -243,6 +249,7 @@ a {
 
 .lang__el {
   font-size: 1em;
+  font-weight: 300;
   color: #505352;
 }
 
@@ -263,6 +270,10 @@ a {
   padding-top: 110px;
   padding-bottom: 140px;
   border-top: 1px solid #3e3e3e;
+}
+
+.footer__text {
+  font-weight: 400;
 }
 
 @media (max-width: 2000px) {
@@ -294,6 +305,11 @@ a {
     min-width: 288px;
     width: 21.581677%;
     background-color: rgba(15, 15, 15, 0.85);
+  }
+
+  .layout__text {
+    max-width: 450px;
+    margin-bottom: 50px;
   }
 
   .options {

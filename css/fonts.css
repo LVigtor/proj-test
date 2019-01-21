@@ -1,0 +1,39 @@
+@font-face {
+  font-family: 'SFCompactDisplay';
+  font-style: normal;
+  font-weight: 500;
+  src: url('../fonts/sf-compact-display/medium/sf-compact-display.woff') format('woff'),
+     url('../fonts/sf-compact-display/medium/sf-compact-display.woff2') format('woff2');
+}
+
+@font-face {
+  font-family: 'SFCompactDisplay';
+  font-style: normal;
+  font-weight: 400;
+  src: url('../fonts/sf-compact-display/thin/sf-compact-display.woff') format('woff'),
+     url('../fonts/sf-compact-display/thin/sf-compact-display.woff2') format('woff2');
+}
+
+@font-face {
+  font-family: 'SFCompactDisplay';
+  font-style: 300;
+  font-weight: normal;
+  src: url('../fonts/sf-compact-display/light/sf-compact-display.woff') format('woff'),
+     url('../fonts/sf-compact-display/light/sf-compact-display.woff2') format('woff2');
+}
+
+@font-face {
+  font-family: 'SFCompactDisplay';
+  font-style: 100;
+  font-weight: normal;
+  src: url('../fonts/sf-compact-display/ultralight/sf-compact-display.woff') format('woff'),
+     url('../fonts/sf-compact-display/ultralight/sf-compact-display.woff2') format('woff2');
+}
+
+@font-face {
+  font-family: 'Maleah';
+  font-style: normal;
+  font-weight: normal;
+  src: url('../fonts/maleah/regular/maleah.woff') format('woff'),
+     url('../fonts/maleah/regular/maleah.woff2') format('woff2');
+}
