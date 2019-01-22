@@ -322,7 +322,6 @@ a {
   .sidebar {
     position: fixed;
     top: 200px;
-    bottom: 0;
     z-index: 1;
     min-width: 288px;
     width: 21.581677%;
@@ -367,6 +366,7 @@ a {
 
   .sidebar {
     top: 100px;
+    bottom: 0;
     width: 100%;
     padding-bottom: 50px;
     overflow-y: auto;
