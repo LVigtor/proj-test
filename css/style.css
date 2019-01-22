@@ -17,6 +17,7 @@ body {
   flex-direction: column;
   min-width: 320px;
   min-height: 100vh;
+  margin: 0;
   background-color: #0f0f0f;
   font-family: 'SFCompactDisplay', sans-serif;
   color: #9f9f9f;
@@ -54,11 +55,13 @@ a {
 }
 
 .btn {
-  padding: 46px 146px;
+  padding: 0.65em 2.6em;
   border: none;
   background-color: #070707;
-  font-size: 2.16em;
+  font-family: 'SFCompactDisplay', sans-serif;
+  font-size: 2.1em;
   font-weight: 300;
+  letter-spacing: 0.02em;
   color: #847b7b;
 }
 
@@ -69,30 +72,35 @@ a {
   justify-content: space-between;
   -ms-align-items: center;
   align-items: center;
-  padding-top: 115px;
-  padding-bottom: 98px;
+  padding-top: 4.4em;
+  padding-bottom: 4.4em;
   padding-left: 1.75146%;
-  padding-right: 6.672227%;
+  padding-right: 6.772227%;
 }
 
 .logo {
+  display: inline-block;
+  margin-right: 4%;
   font-family: 'Maleah', sans-serif;
-  font-size: 1.48em;
+  font-size: 1.5em;
+  letter-spacing: 0.2em;
   color: #fefefe;
 }
 
 .burger {
   position: relative;
-  margin-bottom: 40px;
+  z-index: 2;
+  margin-bottom: 0.2em;
   padding-top: 0;
   padding-left: 0;
   padding-right: 0;
-  padding-bottom: 30px;
+  padding-bottom: 0.7em;
   border: none;
   background-color: transparent;
   text-align: center;
   font-size: 1.48em;
   font-weight: 300;
+  letter-spacing: 0.04em;
   color: #fefefe;
 }
 
@@ -127,6 +135,7 @@ a {
   display: flex;
   -ms-align-items: center;
   align-items: center;
+  padding-top: 0.3em;
 }
 
 .soc-list--mobile {
@@ -134,7 +143,7 @@ a {
 }
 
 .soc-list__el:not(:last-of-type) {
-  margin-right: 19.230769%;
+  margin-right: 2.02em;
 }
 
 .soc-list__link {
@@ -151,7 +160,6 @@ a {
   display: -webkit-flex;
   display: -ms-flex;
   display: flex;
-  min-height: 790px;
   padding-left: 3.569641%;
   padding-right: 3.569641%;
 }
@@ -162,38 +170,42 @@ a {
   top: 0;
   min-width: 670px;
   width: 11.581677%;
-  background-color: #0f0f0f;
+  background-color: rgba(15, 15, 15, 0.85);
 }
 
 .nav {
-  padding-left: 16.41791%;
+  padding-left: 30%;
 }
 
 .nav__title {
-  margin-bottom: 32px;
+  margin-bottom: 1em;
   font-size: 1.16em;
   font-weight: 100;
+  letter-spacing: 0.09em;
   text-transform: uppercase;
 }
 
 .nav__el {
   font-size: 1.16em;
   font-weight: 100;
+  letter-spacing: 0.09em;
 }
 
 .nav__list--child {
-  padding-top: 20px;
-  padding-bottom: 20px;
-  padding-left: 4.424779%;
+  padding-top: 0.65em;
+  padding-bottom: 1em;
+  padding-left: 6.124779%;
+  font-size: 0.86206897em;
 }
 
 .nav__el--child {
-  font-size: 0.86206897em;
+  font-size: 1em;
   font-weight: 100;
+  letter-spacing: 0.17em;
 }
 
 .nav__el--child:not(:last-of-type) {
-  margin-bottom: 25px;
+  margin-bottom: 0.65em;
 }
 
 .content {
@@ -208,7 +220,7 @@ a {
   justify-content: flex-end;
   -ms-align-items: center;
   align-items: center;
-  padding-bottom: 8.3%;
+  padding-bottom: 8.35%;
 }
 
 .layout {
@@ -216,24 +228,25 @@ a {
 }
 
 .layout__text {
-  max-width: 812px;
-  margin-bottom: 102px;
-  font-size: 1.32em;
-  line-height: 1.5;
+  max-width: 23.5em;
+  margin-bottom: 2.7em;
+  font-size: 1.45em;
+  line-height: 1.4;
+  letter-spacing: 0.02em;
   color: #847b7b;
 }
 
 .options {
-  position: absolute;
-  bottom: 460px;
-  right: 0;
+  position: fixed;
+  bottom: 29.2em;
+  right: 4.3em;
   text-align: right;
 }
 
 .share {
   display: block;
-  width: 2.72em;
-  margin-bottom: 6.72em;
+  width: 2.3em;
+  margin-bottom: 6.3em;
 }
 
 .share img {
@@ -250,6 +263,7 @@ a {
 .lang__el {
   font-size: 1em;
   font-weight: 300;
+  letter-spacing: 0.2em;
   color: #505352;
 }
 
@@ -263,22 +277,28 @@ a {
 
 .footer {
   padding-left: 3.569641%;
-  padding-right: 3.569641%;
+  padding-right: 1.9%;
 }
 
 .footer__content {
-  padding-top: 110px;
-  padding-bottom: 140px;
+  padding-top: 4.2em;
+  padding-bottom: 5.5em;
   border-top: 1px solid #3e3e3e;
 }
 
 .footer__text {
+  font-size: 1em;
   font-weight: 400;
+  letter-spacing: 0.08em;
 }
 
 @media (max-width: 2000px) {
   body {
     font-size: 14px;
+  }
+
+  .logo {
+    margin-right: 1.5%;
   }
 
   .header {
@@ -300,11 +320,16 @@ a {
   }
 
   .sidebar {
+    position: fixed;
+    top: 200px;
     bottom: 0;
     z-index: 1;
     min-width: 288px;
     width: 21.581677%;
-    background-color: rgba(15, 15, 15, 0.85);
+  }
+
+  .nav {
+    padding-left: 15%;
   }
 
   .layout__text {
@@ -331,8 +356,20 @@ a {
     font-size: 12px;
   }
 
+  .header {
+    padding-top: 25px;
+    padding-left: 6.672227%;
+  }
+
+  .burger__layer:not(:last-of-type) {
+    margin-bottom: 10px;
+  }
+
   .sidebar {
+    top: 100px;
     width: 100%;
+    padding-bottom: 50px;
+    overflow-y: auto;
   }
 
   .soc-list {
@@ -348,9 +385,12 @@ a {
   }
 
   .options {
-    position: fixed;
-    z-index: 1;
     right: 10px;
+    bottom: 40px;
+  }
+
+  .share {
+    margin-bottom: 3.32em;
   }
 
   .lang__el {
